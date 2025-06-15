@@ -17,6 +17,7 @@ public class ArithmeticOperators {
         short s1 = 15;
         int res1 = b1 + s1; // Implicit conversion from byte and short to int
 
+        System.out.println("b1 + s1 = " + res1); // The Result is int
 
     }
 }

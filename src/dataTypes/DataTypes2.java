@@ -4,7 +4,7 @@ public class DataTypes2 {
     public static void main(String[] args) {
         byte b1 = 10; // 8 bits
         byte b2 = 0b1010; // 8 bits, binary representation
-        byte b3 = 012;
+        byte b3 = 10;
         byte b4 = 0XA;
 
         System.out.println("b1 = " + b1);
