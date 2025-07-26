@@ -69,10 +69,12 @@ Array manipulation and algorithms
 
 ### 🖥️ **awtLearn**
 Abstract Window Toolkit (AWT) GUI programming
-- `FirstApp.java` - Basic AWT application
+- `FirstApp.java`, `FirstApp2.java` - Basic AWT applications
 - `ButtonAndActionListenerDemo.java` - Event handling
-- Layout managers: `BorderLayoutDemo.java`, `FlowLayoutDemo.java`, `GridLayoutDemo.java`
-- UI components: `TextFieldDemo.java`, `ListBoxDemo.java`, `ScrollBarDemo.java`
+- Layout managers: `BorderLayoutDemo.java`, `FlowLayoutDemo.java`, `GridLayoutDemo.java`, `GridBagLayoutDemo.java`, `CardLayoutDemo.java`
+- UI components: `TextFieldDemo.java`, `TextAreaDemo.java`, `ListBoxDemo.java`, `ScrollBarDemo.java`, `MenusDemo.java`
+- Event handling: `CheckboxRadioButtonItemListenerDemo.java`, `MouseEventDemo.java`, `KeyEventDemo.java`, `WindowEventDemo.java`, `AdapterDemo.java`, `FiftyShadesOfEventHandling.java`
+- Graphics: `PaintingColorsAndFonts.java`, `AnimationDemo.java`
 
 ### 📊 **collections**
 Java Collections Framework
