@@ -41,6 +41,8 @@ Learn-Java/
 │   ├── HelloWorld.java
 │   └── ReadFromKeyboard.java
 ├── lib/
+│   └── sqlite-jdbc-3.42.0.0.jar
+├── mydatabase.db
 ├── pom.xml
 └── README.md
 ```
@@ -232,16 +234,14 @@ mvn exec:java -Dexec.mainClass="packageName.ClassName"
 ```
 
 ### Special Instructions for JDBC Examples
-For JDBC examples, ensure the SQLite driver is available:
+The SQLite JDBC driver is already included in the `lib/` directory. To run JDBC examples:
 ```bash
-# Download SQLite JDBC driver (if not already present)
-mkdir -p lib
-curl -L "https://github.com/xerial/sqlite-jdbc/releases/download/3.42.0.0/sqlite-jdbc-3.42.0.0.jar" -o "lib/sqlite-jdbc-3.42.0.0.jar"
-
 # Compile and run with JDBC driver
 javac -cp "lib/sqlite-jdbc-3.42.0.0.jar" src/jdbcLearn/JDBCDemo.java
 java -cp "lib/sqlite-jdbc-3.42.0.0.jar:src" jdbcLearn.JDBCDemo
 ```
+
+**Note**: The project includes a SQLite database file (`mydatabase.db`) that will be created/used by JDBC examples.
 
 ## 🤝 Contributing
 
