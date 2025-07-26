@@ -66,6 +66,7 @@ Array manipulation and algorithms
 - `ArrayRotation.java` - Array rotation algorithms
 - `MatricesMultiplication.java` - Matrix operations
 - `SecondLargestElement.java` - Finding second largest element
+- `IncreaseSizeOfArray.java` - Dynamic array resizing
 
 ### 🖥️ **awtLearn**
 Abstract Window Toolkit (AWT) GUI programming
@@ -80,9 +81,16 @@ Abstract Window Toolkit (AWT) GUI programming
 Java Collections Framework
 - `ArrayListDemo.java` - Dynamic arrays
 - `LinkedListDemo.java` - Linked list implementation
-- `HashMapDemo.java`, `TreeMapDemo.java` - Map implementations
-- `HashSetDemo.java`, `TreeSetDemo.java` - Set implementations
-- `PriorityQueueDemo.java` - Priority queue usage
+- `HashMapDemo.java`, `TreeMapDemo.java`, `LinkedHashMapDemo.java` - Map implementations
+- `HashSetDemo.java`, `TreeSetDemo.java`, `LinkedHashSetDemo.java` - Set implementations
+- `PriorityQueueDemo.java`, `ArrayDequeDemo.java` - Queue implementations
+- `HashTableDemo.java` - Legacy collections
+- `ArraysAndComparatorDemo.java` - Arrays utility and comparators
+- `TreeSetComparableInterfaceDemo.java` - Comparable interface usage
+- `BitsetDemo.java` - Bit manipulation collections
+- `StringTokenizerDemo.java` - String tokenization
+- `PropertiesDemo.java` - Properties file handling
+- `MenuDrivenAccountProgram.java` - Real-world application example
 
 ### 🔀 **conditionalStatements**
 Control flow and decision making
@@ -90,10 +98,12 @@ Control flow and decision making
 - `SwitchPractice.java` - Switch-case statements
 - `CheckIfLeapYear.java` - Leap year calculation
 - `FindRadixOfNumber.java` - Number base detection
+- `ProtocolAndTypeOfWebsite.java` - URL protocol and type detection
 
 ### 🔤 **dataTypes**
 Java data types and variables
-- `DataTypes.java` - Primitive data types
+- `DataTypes.java`, `DataTypes2.java` - Primitive data types
+- `DataTypeDetails.java` - Detailed data type information
 - `Variables.java` - Variable declarations and scope
 - `UnicodeChars.java` - Unicode character handling
 
@@ -103,6 +113,7 @@ Date and time manipulation
 - `CalendarDemo.java` - Calendar class usage
 - `DateFormatter.java` - Date formatting
 - `JodaDateAndTimeAPI.java` - Modern date-time API
+- `MoreTimeClasses.java` - Additional time-related classes
 
 ### ⚠️ **exceptionsHandling**
 Exception handling mechanisms
@@ -110,6 +121,9 @@ Exception handling mechanisms
 - `UncheckedExceptionsHandling.java` - Runtime exceptions
 - `CustomExceptionHandling.java` - Custom exception classes
 - `FinallyBlockDemo.java` - Finally block usage
+- `ExceptionHandlingZeroDivision.java` - Division by zero handling
+- `MultipleAndNestedCatchBlocks.java` - Multiple catch blocks
+- `ResourcesExceptionHandlingDemo.java` - Resource management with exceptions
 
 ### 🔧 **generics**
 Generic programming concepts
@@ -131,16 +145,20 @@ Inner class implementations
 
 ### 🔌 **interfaces**
 Interface programming
-- `InterfacesPractice1.java` - Basic interfaces
+- `InterfacesPractice1.java`, `InterfacesPractice2.java` - Basic interfaces
 - `MultipleInterfacesDemo.java` - Multiple inheritance
 - `InterfaceCallbackExample.java` - Callback patterns
 
 ### 📁 **ioStreams**
 Input/Output stream operations
-- File operations: `FileClassDemo.java`, `CopyAFile.java`
-- Stream types: `ByteStreamsDemo.java`, `BufferStreamsDemo.java`
-- Serialization: `ObjectInputStreamsDemo.java`, `ObjectOutputStreamsDemo.java`
-- Data streams: `DataInputStreamDemo.java`, `RandomAccessFileDemo.java`
+- File operations: `FileClassDemo.java`, `CopyAFile.java`, `Copy2FilesToDestination.java`
+- Stream types: `ByteStreamsDemo.java`, `BufferStreamsDemo.java`, `BytesArrayOutputStreamDemo.java`
+- Character streams: `BufferedReaderDemo.java`, `CharArrayReaderDemo.java`
+- Serialization: `ObjectInputStreamsDemo.java`, `ObjectOutputStreamsDemo.java`, `SerializeCustomerStoreAndRetrieve.java`
+- Data streams: `DataInputStreamDemo.java`, `DataOutputStreamDemo.java`, `RandomAccessFileDemo.java`
+- Print streams: `PrintStreamInputDemo.java`, `PrintStreamOutputDemo.java`
+- File operations: `FileOutputStreamDemo.java`, `StoreAndRetrieveFloatsInFile.java`
+- Piped streams: `PipedStreamsDemo.java`
 
 ### 🗄️ **jdbcLearn**
 Database connectivity with JDBC
@@ -161,6 +179,9 @@ Core Java language features
 - `MathDemo.java` - Mathematical operations
 - `ReflectDemo.java` - Reflection API
 - `EnumDemo.java` - Enumeration usage
+- `FloatsDemo.java` - Float operations
+- `IntegersDemo.java` - Integer operations
+- `ObjectClassDemo.java` - Object class methods
 
 ### 🔄 **loops**
 Loop constructs and iterations
@@ -172,13 +193,19 @@ Method definitions and usage
 - `MaxMethodOverloading.java` - Method overloading
 - `VariableArgumentsDemo.java` - Varargs
 - `CheckIfPrime.java` - Prime number checking
+- `FindGCD.java` - Greatest common divisor calculation
+- `PassObjects.java` - Passing objects to methods
 
 ### 🧵 **mutithreading**
 Concurrent programming
-- `MultiThreadingDemo1.java` - Basic threading
+- `MultiThreadingDemo1.java`, `MultiThreadingDemo2.java` - Basic threading
 - `SynchronizationDemo.java` - Thread synchronization
 - `InterThreadCommunicationDemo.java` - Thread communication
 - `ATMCustomerDemo.java` - Real-world threading example
+- `ThreadMethodsDemo1.java`, `ThreadMethodsDemo2.java`, `ThreadMethodsDemo3.java` - Thread methods
+- `ChannelLikeComm.java` - Channel-like communication
+- `TeacherStudentsProblemSolution.java` - Producer-consumer problem
+- `ThreadMonitoring.java` - Thread monitoring and management
 
 ### 🌐 **networkProgramming**
 Network communication
@@ -188,27 +215,35 @@ Network communication
 
 ### 🏛️ **oops**
 Object-Oriented Programming concepts
-- `StudentClassDemo.java` - Class and object creation
+- `StudentClassDemo.java`, `StudentSubjectsClassDemo.java` - Class and object creation
 - `CircleClass.java` - Encapsulation example
 - `ProductAndCustomerClassDemo.java` - Class relationships
+- `RectangleClassDemo.java` - Rectangle class implementation
+- `CylinderClassDemo.java` - Cylinder class with inheritance
 
 ### ➕ **operatorsAndExpressions**
 Operators and mathematical expressions
 - `ArithmeticOperators.java` - Basic arithmetic
-- `BitwiseDemo.java` - Bitwise operations
+- `BitwiseDemo.java`, `BitwiseMaskingSwapping.java` - Bitwise operations
 - `QuadraticEquation.java` - Mathematical calculations
+- `IncDec.java` - Increment and decrement operators
+- `Cuboid.java` - Cuboid calculations
+- `WideNarroDemo.java` - Type conversion demonstrations
 
 ### 🔒 **staticAndFinal**
 Static and final keywords
 - `StaticPractice1.java` - Static members
+- `StaticBlocksPractice.java` - Static blocks
 - `FinalPractice1.java` - Final keyword usage
 - `SingletonClassDemo.java` - Singleton pattern
 
 ### 📝 **strings**
 String manipulation and processing
 - `StringMethodsPractice.java` - String methods
+- `StringObjectsPractice.java` - String object operations
 - `RegularExpressionsPractice.java` - Regex patterns
 - `FormattedStringsPrinting.java` - String formatting
+- `StringPrinting.java` - String printing techniques
 
 ## 🏃‍♂️ How to Run Examples
 
